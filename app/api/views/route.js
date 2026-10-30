@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { db } from '@/lib/firebase';
+import { db } from '../../../lib/firebase';
 import { ref, push, set } from 'firebase/database';
 
 function corsHeaders() {
